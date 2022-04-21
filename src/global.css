@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* component json file */
+.secBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secBlock article {
+  width: 90%;
+  height: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.secBlock article img {
+  width: 100%;
+  height: 30vh;
+}
+.secBlock article div {
+  width: 23%;
+  height: 55vh;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: rgb(147, 234, 234);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .secBlock article div:hover{
+   transform: scale(1.2);
+     box-shadow: 0px 0px 2px 2px aqua ;
+} */
+h4 {
+  font-size: 10px;
+}
+h3 {
+  text-align: center;
+  font-weight: bold;
+  color: navy;
+}
+.p {
+  color: rgb(155, 28, 28);
+  font-weight: bold;
+  margin: 5px;
+  background-color: rgb(225, 163, 20);
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  height: 4vh;
+  font-size: 12px;
+  padding: 6px;
+}
+.p-child {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  left: 150px;
+  bottom: 15px;
+  /* padding: 2px; */
+}
+.p2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+.p3 {
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(20, 220, 27);
+}
+.p4 {
+  font-size: 12px;
+  margin: 5px;
+}
+.changePage{
+ width: 300px;
+ height: 60vh;
+ background-color: aliceblue;
+}
+button {
+  position: relative;
+  top: 190px;
+  right: 330px;
+  padding: 20px;
+  border: 1px solid red;
+  margin: 5px;
+  border-radius: 100%;
+  background-color: rgb(59, 243, 231);
+}
+button:hover{
+  transform: scale(1.1);
+  border: 2px solid red;
+  
+}
+
+/*  assignment  employee form */
+/* .empSec {
+  width: 100%;
+  background-color: #111;
+}
+.empSec article {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 2px solid;
+  background-color: #fff;
+}
+.empSec form {
+  padding: 10px;
+  width: 550px;
+}
+.emp-div input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: white;
+  padding: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  background-color: rgba(197, 197, 197, 0.51);
+  color: black;
+  font-weight: bold;
+}
+.empSec select {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.skills input {
+  margin-left: 15px;
+  margin-right: 2px;
+}
+.skills {
+  margin-bottom: 10px;
+}
+.expr input {
+  margin-left: 15px;
+  margin-right: 2px;
+}
+.btn button {
+  padding: 16px 48px;
+  border-radius: 50px;
+  position: relative;
+  left: 15%;
+ background-color: rgb(180, 171, 17);
+  color: black;
+  border: none;
+  font-weight: bold;
+  transition-property: width;
+}
+.btn button:hover{
+  width: 150px;
+  transition-duration: 5s;
+  transition-delay: 2s;
+  transition-timing-function: linear;
+  color: #fff;
+}
+.dob input {
+  width: 100%;
+  color: black;
+  padding: 14px;
+  background-color: rgba(197, 197, 197, 0.51);
+}
+label {
+  font-weight: bold;
+}
+input::placeholder {
+  color: yellow;
+  font-weight: 700;
+  font-size: 10px;
+}
+.btn1 button {
+  padding: 16px 48px;
+  margin-top: 10px;
+  border-radius: 50px;
+  position: relative;
+  left: 58%;
+  bottom: 56px;
+  background-color: rgb(180, 171, 17);
+  color: black;
+  border: none;
+  font-weight: bold;
+   transition-property: width;
+}
+.btn1 button:hover{
+  width: 153px;
+  transition-duration: 5s;
+  transition-delay: 2s;
+  transition-timing-function: linear;
+  color: #fff;
+}
+
+.emp-div select{
+    background-color:rgba(197, 197, 197, 0.51); ;
+}
+.emp-div select option{
+    background-color:rgba(197, 197, 197, 0.51); ;
+}
+.emp-edu option{
+    background-color:rgba(197, 197, 197, 0.51); ;
+} */
+
+/* spotify login form */
+
+/* #spotifyBlock{
+    width: 100%;
+    height: 100vh;
+}
+#spotifyBlock article{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#spotifyBlock article form{
+    width: 500px;
+    height: 1200px;
+  /* background-color: rgb(110, 105, 105); */
+/* }
+.form-group{
+padding: 20px 0px;
+display: flex;
+flex-direction: column;
+
+}
+.form-group a{
+    color: var(--text-bright-accent,#117a37);
+}
+.form-group label{
+    font-weight: bold;
+    font-size: 15px;
+} */
+/* 
+.form-group input{
+    height: 50px;
+}
+
+.date-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    font-weight: bold;
+
+}
+.date-div input{
+    width: 100px;
+    height: 50px;
+}
+ .date-div span{
+    padding: 5px 0px;
+} 
+
+ .gender-inp{
+padding-top: 20px 0px;
+}
+
+.check1{
+    padding: 15px 0px;
+}
+.check2{
+    width: 250px;
+    height: 80px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.check2 input{
+  width: 40px;
+  padding: 10px;
+}
+.para-line p{
+    text-align:center;
+    color: #111;
+    padding: 10px 0px;
+}
+.para-line p a{
+    color: #1ed760;
+}
+
+.form-btn{
+    padding: 20px 55px;
+    background-color: #1ed760;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: 3px solid #111;
+    outline-offset: 3px;
+   display: block;
+   position: relative;
+   top: 10px;
+   left: 160px;
+}
+.form-btn:hover{
+    transform: scale(1.05);
+} 
+.log p{
+  text-align: center;
+  margin-top: 30px;
+}
+.log p a{
+  color: #1ed760;
+}
+
+.btn1 button{
+width: 380px;
+height: 50px;
+border-radius:50px ;
+margin: 10px 0px;
+background-color: rgba(53, 53, 109, 0.941);
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+}
+.btn1 button:hover{
+  transform: scale(1.1);
+}
+.btn2 button{
+width: 380px;
+height: 50px;
+border-radius:50px ;
+background-color: aliceblue;
+font-size: 14px;
+font-weight: bold;
+}
+.btn2 button:hover{
+  transform: scale(1.1);
+}  */
